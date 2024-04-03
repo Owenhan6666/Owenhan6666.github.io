@@ -1,7 +1,13 @@
 ---
-layout: project
-title: Building Year Histogram
-permalink: /visualizations/building/
+name: visualizations
+tools: [Python, HTML, Vega-Lite]
+image: assets/pngs/visualizations.png
+description: This is an engaging "showcase" project that utilizes Vega-Lite for dynamic and interactive visualizations!
+custom_js:
+  - vega.min
+  - vega-lite.min
+  - vega-embed.min
+  - justcharts
 ---
 
 ## Building Year Histogram
