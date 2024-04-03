@@ -1,6 +1,6 @@
 ---
-layout: page
-title: Building Visualizations
+layout: project
+title: Building Year Histogram
 permalink: /visualizations/building/
 ---
 
