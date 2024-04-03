@@ -1,26 +1,25 @@
 ---
-layout: project
-title: "Building Visualization Project"
+layout: page
+title: Building Visualizations
+permalink: /visualizations/building/
 ---
 
-| name | tools | image | description | custom_js |
-| --- | --- | --- | --- | --- |
-| Building Visualization Project | Python, HTML, Vega-Lite || This project provides interactive visualizations of building years and total square footage per agency. | vega.min, vega-lite.min, vega-embed.min |
+## Building Year Histogram
 
-## Building Visualization Project
+<iframe src="{{ site.baseurl }}/visualizations/building_year_histogram_improved.html" width="100%" height="500px" frameBorder="0"></iframe>
 
-This is a showcase project that uses Vega-Lite for interactive visualizations! The visualization aims to offer insights into the construction years and square footage distributions of agency buildings.
+This visualization shows the distribution of building construction years in the dataset...
 
-We can use a Vega chart HTML tag like so:
+## Total Square Footage per Agency
 
-```json
-<vegachart schema-url="{{ site.baseurl }}/assets/json/building_year_histogram_improved.json" style="width: 100%;"></vegachart>
-<vegachart schema-url="{{ site.baseurl }}/assets/json/total_square_footage_per_agency.json" style="width: 100%;"></vegachart>
+<iframe src="{{ site.baseurl }}/visualizations/total_square_footage_per_agency.html" width="100%" height="500px" frameBorder="0"></iframe>
+
+This visualization shows the total square footage of buildings owned by each agency...
 
 <div class="left">
-{% include elements/button.html link="https://github.com/yourRepository/building_year_histogram_improved.json" text="Building Year Histogram Data" %}
+{% include elements/button.html link="https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_data/main/building_inventory.csv" text="The Data" %}
 </div>
+
 <div class="right">
-{% include elements/button.html link="https://github.com/yourRepository/total_square_footage_per_agency.json" text="Total Square Footage Data" %}
+{% include elements/button.html link="link-to-your-jupyter-notebook" text="The Analysis" %}
 </div>
-{% include elements/button.html link="https://github.com/yourAnalysisCodeRepo/analysis_script.py" text="The Analysis" %}
