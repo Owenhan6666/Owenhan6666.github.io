@@ -5,7 +5,7 @@ title: "Building Visualization Project"
 
 | name | tools | image | description | custom_js |
 | --- | --- | --- | --- | --- |
-| Building Visualization Project | Python, HTML, Vega-Lite | ![Building Visualization](assets/pngs/building_visualization.png) | This project provides interactive visualizations of building years and total square footage per agency. | vega.min, vega-lite.min, vega-embed.min |
+| Building Visualization Project | Python, HTML, Vega-Lite || This project provides interactive visualizations of building years and total square footage per agency. | vega.min, vega-lite.min, vega-embed.min |
 
 ## Building Visualization Project
 
@@ -13,7 +13,7 @@ This is a showcase project that uses Vega-Lite for interactive visualizations! T
 
 We can use a Vega chart HTML tag like so:
 
-```html
+```json
 <vegachart schema-url="{{ site.baseurl }}/assets/json/building_year_histogram_improved.json" style="width: 100%;"></vegachart>
 <vegachart schema-url="{{ site.baseurl }}/assets/json/total_square_footage_per_agency.json" style="width: 100%;"></vegachart>
 
